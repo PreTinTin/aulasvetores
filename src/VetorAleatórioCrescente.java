@@ -14,6 +14,9 @@ public class VetorAleatórioCrescente {
 		{
 			x[i] = batata.nextInt();
 			
+			
+			
+			
 			if (maior < x[i])
 			{
 				maior = x[i];
@@ -34,7 +37,10 @@ public class VetorAleatórioCrescente {
 			
 		}
 		
-		//for (int i = menor; )
+		for(int i = 0; i < x.length; i++)
+		{
+			System.out.println("x[" + i + "]= " + x[i]);
+		}
 		
 		
 	}
